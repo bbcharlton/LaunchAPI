@@ -11,7 +11,7 @@ var index = require('./routes/index');
 
 var app = express();
 
-mongoose.connect('localhost:27017/soloNode');
+mongoose.connect('ENTER_MONGODB_HERE');
 mongoose.Promise = global.Promise;
 
 // view engine setup
